@@ -8,7 +8,7 @@ spec:
   source:
     repoURL: https://github.com/F14my/Kubers.git
     targetRevision: main
-    path: lab-k8s-messager/k8s/overlays/dev
+    path: k8s/overlays/dev
   destination:
     server: https://kubernetes.default.svc
     namespace: messager-dev
