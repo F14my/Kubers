@@ -27,7 +27,6 @@ spec:
   accessModes:
     - ReadWriteMany
   persistentVolumeReclaimPolicy: Retain
-  storageClassName: ""
   mountOptions:
     - allow-delete
     - region=us-east-1
