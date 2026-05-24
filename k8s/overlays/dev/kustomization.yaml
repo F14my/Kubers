@@ -17,3 +17,5 @@ images:
 
 patches:
   - path: patches/resources.yaml
+  - path: patches/configmap.yaml
+  - path: patches/pv-patch.yaml
