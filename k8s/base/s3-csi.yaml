@@ -21,11 +21,13 @@ kind: PersistentVolume
 metadata:
   name: s3-pv-messager-uploads
 spec:
+  storageClassName: ""
   capacity:
     storage: 10Gi
   accessModes:
     - ReadWriteMany
   persistentVolumeReclaimPolicy: Retain
+  storageClassName: ""
   mountOptions:
     - allow-delete
     - region=us-east-1
@@ -45,6 +47,7 @@ kind: PersistentVolumeClaim
 metadata:
   name: message-uploads-pvc
 spec:
+  storageClassName: ""
   accessModes:
     - ReadWriteMany
   resources:

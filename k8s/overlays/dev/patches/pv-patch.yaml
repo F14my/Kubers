@@ -6,3 +6,8 @@ spec:
   csi:
     nodePublishSecretRef:
       namespace: messager-dev
+  mountOptions:
+    - allow-delete
+    - region=us-east-1
+    - url=http://minio-dev.messager-dev.svc.cluster.local:9000
+    - use_path_request_style
