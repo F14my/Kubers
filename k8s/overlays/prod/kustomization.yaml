@@ -3,6 +3,7 @@ kind: Kustomization
 namespace: messager-prod
 resources:
   - ../../base
+nameSuffix: -prod
 
 images:
   - name: mablinov2704/frontend
