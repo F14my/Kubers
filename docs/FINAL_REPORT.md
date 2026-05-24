@@ -38,3 +38,7 @@
 1. messager-dev: отслеживает путь k8s/overlays/dev.
 2. messager-prod: отслеживает путь k8s/overlays/prod.
 Включена автосинхронизация (Prune, SelfHeal).
+
+## 6.Скриншоты
+![img_1.png](img_1.png)
+![img.png](img.png)
